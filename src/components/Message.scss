@@ -1,0 +1,21 @@
+.message {
+  max-width: 75%;
+  padding: 10px 16px;
+  border-radius: 20px;
+  margin: 4px 0;
+  color: var(--text-color);
+  display: inline-block;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: var(--user-bubble-color);
+  border-top-right-radius: 0;
+}
+
+.bot {
+  align-self: flex-start;
+  background-color: var(--bs-primary);
+  color: #fff;
+  border-top-left-radius: 0;
+}

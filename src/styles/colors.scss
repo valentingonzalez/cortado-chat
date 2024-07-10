@@ -1,0 +1,26 @@
+:root {
+  --bs-primary: oklch(56.79% 0.211 276.71);
+  --bs-primary-rgb: var(--bs-primary);
+  --bs-secondary: oklch(26.03% 0 0);
+  --bs-secondary-rgb: var(--bs-secondary);
+  --bs-bg: oklch(20.46% 0 0);
+
+  .bg-dark {
+    background-color: var(--bs-bg) !important;
+  }
+  .bg-secondary {
+    background-color: var(--bs-secondary) !important;
+    border-color: var(--bs-secondary) !important;
+    color: #fff;
+  }
+
+  --user-bubble-color: oklch(100% 0.004 264.49);
+  --bot-bubble-color: oklch(20% 0.004 264.49);
+  .btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-color: #fff;
+    font-size: 14px;
+    min-height: 40px;
+  }
+}
